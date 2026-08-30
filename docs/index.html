@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Suured laevad Tallinnas</title>
+
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    color: #1d1d1f;
+}
+
+header {
+    background: #003b5c;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.date {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003b5c;
+    margin-bottom: 15px;
+}
+
+.ship {
+    padding: 12px 0;
+    border-top: 1px solid #eee;
+}
+
+.ship:first-of-type {
+    border-top: none;
+}
+
+.ship-name {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.ship-info {
+    margin-top: 5px;
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    background: #007aff;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚢 Suured kruiisilaevad Tallinnas</h1>
+    <p>Laevad pikkusega vähemalt 250 meetrit</p>
+
+    <a class="button" href="suured-laevad.ics">
+        📅 Ava kalender
+    </a>
+</header>
+
+<div class="container">
+
+<div id="content" class="loading">
+Laen laevagraafikut...
+</div>
+
+</div>
+
+<script>
+
+fetch("suured-laevad.ics")
+.then(response => response.text())
+.then(data => {
+
+    const events = data.split("BEGIN:VEVENT").slice(1);
+
+    let html = "";
+
+    events.forEach(event => {
+
+        const summaryMatch = event.match(/SUMMARY:(.*)/);
+        const startMatch = event.match(/DTSTART:(.*)/);
+        const descriptionMatch = event.match(/DESCRIPTION:(.*)/);
+
+        if (!summaryMatch) return;
+
+        const summary = summaryMatch[1];
+
+        let date = "";
+
+        if (startMatch) {
+            const value = startMatch[1].trim();
+
+            const year = value.substring(0,4);
+            const month = value.substring(4,6);
+            const day = value.substring(6,8);
+
+            date = `${day}.${month}.${year}`;
+        }
+
+        let description = "";
+
+        if (descriptionMatch) {
+            description = descriptionMatch[1]
+                .replace(/\\n/g, "<br>")
+                .replace(/\\,/g, ",");
+        }
+
+        html += `
+        <div class="card">
+
+            <div class="date">
+                📅 ${date}
+            </div>
+
+            <div class="ship">
+                <div class="ship-name">
+                    ${summary}
+                </div>
+
+                <div class="ship-info">
+                    ${description}
+                </div>
+            </div>
+
+        </div>
+        `;
+
+    });
+
+    document.getElementById("content").innerHTML =
+        html || "<div class='loading'>Laevu ei leitud.</div>";
+
+})
+.catch(error => {
+
+    document.getElementById("content").innerHTML =
+        "<div class='loading'>Kalendri laadimine ebaõnnestus.</div>";
+
+});
+
+</script>
+
+</body>
+</html>
