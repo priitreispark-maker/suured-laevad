@@ -4,5 +4,204 @@ PRODID:-//Suured Laevad Tallinnas//ET
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Suured kruiisilaevad Tallinnas
+X-WR-CALDESC:Tallinna Sadama kruiisigraafikust automaatselt genereeritud kalender. Näidatakse laevu pikkusega vähemalt 250 m. Samal päeval sadamas olevad laevad on koondatud üheks kalendrisündmuseks.
 X-WR-TIMEZONE:Europe/Tallinn
+BEGIN:VEVENT
+UID:985e0b316b74f3f7f317e99e@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260830T050000Z
+DTEND:20260830T140000Z
+SUMMARY:🚢 NORWEGIAN SUN Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 NORWEGIAN SUN\n   Saabub: 08:00\n   Väljub:  17:00\n   Pikkus:  258.60 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dd8cbc7a1653bedc0c0a47b5@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260902T060000Z
+DTEND:20260902T190000Z
+SUMMARY:🚢 BRITANNIA Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 BRITANNIA\n   Saabub: 09:00\n   Väljub:  22:00\n   Pikkus:  330.00 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:315c9812fda378cf19048c4c@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260903T060000Z
+DTEND:20260903T205500Z
+SUMMARY:🚢 MEIN SCHIFF 7 Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 MEIN SCHIFF 7\n   Saabub: 09:00\n   Väljub:  23:55\n   Pikkus:  315.70 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:70aadf676f59ab4383a95884@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260913T080000Z
+DTEND:20260913T170000Z
+SUMMARY:🚢 NORWEGIAN SUN Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 NORWEGIAN SUN\n   Saabub: 11:00\n   Väljub:  20:00\n   Pikkus:  258.60 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:10359584468baef567cc7874@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260915T050000Z
+DTEND:20260915T140000Z
+SUMMARY:🚢 NORWEGIAN SUN Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 NORWEGIAN SUN\n   Saabub: 08:00\n   Väljub:  17:00\n   Pikkus:  258.60 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:837fecff87934c4796e3f9fc@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260917T060000Z
+DTEND:20260917T150000Z
+SUMMARY:🚢 MSC MAGNIFICA Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 MSC MAGNIFICA\n   Saabub: 09:00\n   Väljub:  18:00\n   Pikkus:  293.80 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9ba8a7c1c24a979561a566d6@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260918T060000Z
+DTEND:20260918T205500Z
+SUMMARY:🚢 MEIN SCHIFF 7 Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 MEIN SCHIFF 7\n   Saabub: 09:00\n   Väljub:  23:55\n   Pikkus:  315.70 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:42b04d32c53b13c5debd455e@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260920T060000Z
+DTEND:20260920T190000Z
+SUMMARY:🚢 SKY PRINCESS Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 SKY PRINCESS\n   Saabub: 09:00\n   Väljub:  22:00\n   Pikkus:  329.81 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5de7e9d0f531250c1bc10916@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260923T050000Z
+DTEND:20260923T150000Z
+SUMMARY:🚢 AIDALUNA Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 AIDALUNA\n   Saabub: 08:00\n   Väljub:  18:00\n   Pikkus:  251.89 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2f80184ac33d5cce0df0ae7c@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260928T083000Z
+DTEND:20260929T010000Z
+SUMMARY:🚢 AIDAMAR Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 AIDAMAR\n   Saabub: 11:30\n   Väljub:  04:00\n   Pikkus:  253.22 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9668ef00b789e8f7f7d67a45@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20260929T050000Z
+DTEND:20260929T150000Z
+SUMMARY:🚢 MSC MAGNIFICA Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 MSC MAGNIFICA\n   Saabub: 08:00\n   Väljub:  18:00\n   Pikkus:  293.80 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:41c65541e125974285af5686@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20261001T080000Z
+DTEND:20261001T170000Z
+SUMMARY:🚢 NORWEGIAN SUN Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 NORWEGIAN SUN\n   Saabub: 11:00\n   Väljub:  20:00\n   Pikkus:  258.60 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cfd4ea5fbb44e8868f46d64b@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20261003T050000Z
+DTEND:20261003T140000Z
+SUMMARY:🚢 NORWEGIAN SUN Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 NORWEGIAN SUN\n   Saabub: 08:00\n   Väljub:  17:00\n   Pikkus:  258.60 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:69f21b5cadf9d3863848446c@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20261007T050000Z
+DTEND:20261007T150000Z
+SUMMARY:🚢 AIDALUNA Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 AIDALUNA\n   Saabub: 08:00\n   Väljub:  18:00\n   Pikkus:  251.89 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fbbe26b5af4167b053ccd8b6@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20261103T053000Z
+DTEND:20261103T215900Z
+SUMMARY:🚢 MEIN SCHIFF FLOW Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 MEIN SCHIFF FLOW\n   Saabub: 07:30\n   Väljub:  23:59\n   Pikkus:  332.63 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f9adbc1f94b78b9c499014a5@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20261201T053000Z
+DTEND:20261201T215900Z
+SUMMARY:🚢 MEIN SCHIFF FLOW Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 MEIN SCHIFF FLOW\n   Saabub: 07:30\n   Väljub:  23:59\n   Pikkus:  332.63 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0013cf3e70b4c64ecc8886de@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20261212T053000Z
+DTEND:20261212T160000Z
+SUMMARY:🚢 MEIN SCHIFF 3 Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 MEIN SCHIFF 3\n   Saabub: 07:30\n   Väljub:  18:00\n   Pikkus:  293.20 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9cf5457da3cf589a88aa9232@suured-laevad
+DTSTAMP:20260830T101352Z
+DTSTART:20261227T090000Z
+DTEND:20261227T215900Z
+SUMMARY:🚢 AIDAPRIMA Tallinnas
+DESCRIPTION:Laevu sadamas: 1\n\n🚢 AIDAPRIMA\n   Saabub: 11:00\n   Väljub:  23:59\n   Pikkus:  299.95 m\n\nAllikas:\nhttps://www.ts.ee/kruiisid/
+LOCATION:VANASADAM\, Tallinn
+URL:https://www.ts.ee/kruiisid/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
